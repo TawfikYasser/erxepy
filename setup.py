@@ -14,7 +14,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
  
 setup(
   name='erxepym',
-  version='0.0.1',
+  version='0.0.2',
   description='Easy Regular Expression Python Module',
   long_description=long_description,
   url='https://github.com/TawfikYasser/erxepy',  
