@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: erxepym
+Version: 0.0.1
+Summary: Easy Regular Expression Python Module
+Home-page: https://github.com/TawfikYasser/erxepy
+Author: Tawfik Yasser
+Author-email: tawfekyassertawfek@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/TawfikYasser/erxepy/issues
+Keywords: regex
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+![](https://github.com/TawfikYasser/erxepy/blob/main/erxepy.png)
+

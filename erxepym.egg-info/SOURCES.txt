@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+erxepym.egg-info/PKG-INFO
+erxepym.egg-info/SOURCES.txt
+erxepym.egg-info/dependency_links.txt
+erxepym.egg-info/top_level.txt

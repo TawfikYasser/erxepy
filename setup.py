@@ -13,7 +13,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
  
 setup(
-  name='erxepy',
+  name='erxepym',
   version='0.0.1',
   description='Easy Regular Expression Python Module',
   long_description=long_description,
