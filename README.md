@@ -1,3 +1,35 @@
 ![](https://github.com/TawfikYasser/erxepy/blob/main/erxepy.png)
+---
 
-Visit at: https://pypi.org/project/erxepym/0.0.1/
+erxepy is a python module, used to make regular expressions more easier.
+
+### How to install
+
+```shell
+
+python -m pip install erxepym
+
+```
+
+### How to use
+
+```python
+# Example
+from erxepy import erxepy
+erxepy("123")
+
+```
+### Output
+
+![](https://github.com/TawfikYasser/erxepy/blob/main/erxepygif.gif)
+
+
+---
+
+> More will added soon! Stay tuned.
+
+---
+
+[Visit at](https://pypi.org/project/erxepym/0.0.2)
+
+[TawfikYasser](https://www.linkedin.com/in/tawfikyasser)
