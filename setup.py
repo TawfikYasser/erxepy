@@ -8,13 +8,13 @@ classifiers = [
   'Programming Language :: Python :: 3'
 ]
 
-with open("README.md", "r", encoding="utf-8") as fh:
+with open("READMEPyPi.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
  
 setup(
   name='erxepym',
-  version='0.0.2',
+  version='0.0.3',
   description='Easy Regular Expression Python Module',
   long_description=long_description,
   url='https://github.com/TawfikYasser/erxepy',  

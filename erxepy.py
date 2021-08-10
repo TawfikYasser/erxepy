@@ -43,7 +43,6 @@ def erxepy(test_str) -> str :
         
         print("Welcome to 'erxepy'")
         print("-------------------")
-        print("Please choose your needed 'Regular Expression' from the following:")
         print("Note: you can choose more than one expression.")
 
         more = True
@@ -51,32 +50,34 @@ def erxepy(test_str) -> str :
 
         while more:
             print("Choose number from the following: ")
-            print("1) Any character except newline : .")
-            print("2) The character : a")
-            print("3) The string : ab")
-            print("4) a or b : a|b")
-            print("5) 0 or more a's : a*")
+            print("-----------------------------------")
+            print("1) Any character except newline:")
+            print("2) The character:")
+            print("3) The string:")
+            print("4) a or b:")
+            print("5) 0 or more a's :")
             print("6) 0 or more")
             print("7) 1 or more")
             print("8) 0 or 1")
-            print("9) Exactly 2 : {2}")
-            print("10) Between 2 and 5 : {2,5}")
-            print("11) 2 or more : {2,}")
-            print("12) Up to 5 : {,5}")
-            print("13) One digit : \d")
-            print("14) One non-digit : \D")
-            print("15) One whitespace : \s")
-            print("16) One non-whitespace : \S")
-            print("17) One word character : \w")
-            print("18) One non-word character : \W")
-            print("19) Start of string : ^")
-            print("20) End of string : $")
+            print("9) Exactly 2:")
+            print("10) Between 2 and 5:")
+            print("11) 2 or more:")
+            print("12) Up to 5:")
+            print("13) One digit:")
+            print("14) One non-digit:")
+            print("15) One whitespace:")
+            print("16) One non-whitespace:")
+            print("17) One word character:")
+            print("18) One non-word character:")
+            print("19) Start of string:")
+            print("20) End of string:")
 
             user_input = input("> ")
 
             if user_input not in regexs:
                 print("Worng input")
                 more = True
+                continue
             
             additional_text_1 = None
             additional_text_2 = None
@@ -125,7 +126,6 @@ def erxepy(test_str) -> str :
                 more = True
             elif ask_more == "N" or ask_more == "n":
                 more = False
-                #print(chr(27) + "[2J")
                 print(f"Your Regular Expression =>{regex}")
             else:
                 print("Worng option.")
@@ -136,5 +136,6 @@ def erxepy(test_str) -> str :
 
     matched = re.search(regex,test_str)
     print(f"Match result: {matched.group()}")
-
-erxepy("123")
+    regex = ""
+    more = True
+    #END OF FUNCTION

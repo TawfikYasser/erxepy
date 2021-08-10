@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: erxepym
-Version: 0.0.2
+Version: 0.0.3
 Summary: Easy Regular Expression Python Module
 Home-page: https://github.com/TawfikYasser/erxepy
 Author: Tawfik Yasser
@@ -16,7 +16,7 @@ Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python :: 3
 License-File: LICENSE
 
-![](https://github.com/TawfikYasser/erxepy/blob/main/erxepy.png)
+erxepy is a python module, used to make regular expressions more easier.
 
-Visit at: https://pypi.org/project/erxepym/0.0.1/
+Find more here : https://github.com/TawfikYasser/erxepy
 
