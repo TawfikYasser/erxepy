@@ -1,4 +1,4 @@
-![erxepy-img](https://github.com/TawfikYasser/erxepy/blob/main/erxepy-img.png)
+![erxepy-img](https://github.com/TawfikYasser/erxepy/blob/main/etc/erxepy-img.png)
 ---
 
 erxepy is a python module, used to make regular expressions more easier.
@@ -21,7 +21,7 @@ erxepy("123")
 ```
 ### Output
 
-![](https://github.com/TawfikYasser/erxepy/blob/main/erxepygif.gif)
+![](https://github.com/TawfikYasser/erxepy/blob/main/etc/erxepygif.gif)
 
 
 ---
