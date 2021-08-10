@@ -48,7 +48,7 @@ def make_regex() -> str :
     # While loop to show the list of available regular expressions for the user to choose from them.
     while more:
         show_rxs()
-        user_input = input("> ")
+        user_input = input(">> ")
         if user_input not in regexs:
             print("Option doesn't found!")
             more = True
@@ -107,25 +107,17 @@ def combine_regex(user_input,regex):
     #END OF FUNCTION
 
 def show_rxs():
-
-    print("1) Any character except newline:")
-    print("2) The character:")
-    print("3) The string:")
-    print("4) a or b:")
-    print("5) 0 or more a's :")
-    print("6) 0 or more")
-    print("7) 1 or more")
-    print("8) 0 or 1")
-    print("9) Exactly 2:")
-    print("10) Between 2 and 5:")
-    print("11) 2 or more:")
-    print("12) Up to 5:")
-    print("13) One digit:")
-    print("14) One non-digit:")
-    print("15) One whitespace:")
-    print("16) One non-whitespace:")
-    print("17) One word character:")
-    print("18) One non-word character:")
-    print("19) Start of string:")
-    print("20) End of string:")
+    print("+----------------------------------+-------------------+----------------+-------------+")
+    print("| [1] Any character except newline | [2] The character | [3] The string | [4] a or b  |")
+    print("+-------------------+---------------+---------------+------------+--------------------+")
+    print("| [5] 0 or more a's | [6] 0 or more | [7] 1 or more | [8] 0 or 1 | [9] Exactly 2      |")
+    print("+----------------------+----------------+--------------+------------------------------+")
+    print("| [10] Between 2 and 5 | [11] 2 or more | [12] Up to 5 | [13] One digit               |")
+    print("+--------------------+---------------------+------------------------------------------+")
+    print("| [14] One non-digit | [15] One whitespace | [16] One non-whitespace                  |")
+    print("+-------------------------+-----------------------------+-----------------------------+")
+    print("| [17] One word character | [18] One non-word character | [19] Start of string        |")
+    print("+-------------------------------------------------------------------------------------+")
+    print("| [20] End of string                                                                  |")
+    print("+-------------------------------------------------------------------------------------+")
     #END OF FUNCTION
