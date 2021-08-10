@@ -35,6 +35,6 @@ python3 -m pip install --user --upgrade erxepym
 
 ---
 
-[Visit at PyPi](https://pypi.org/project/erxepym/0.0.5)
+[Visit at PyPi](https://pypi.org/project/erxepym/0.0.6)
 
 [TawfikYasser](https://www.linkedin.com/in/tawfikyasser)
