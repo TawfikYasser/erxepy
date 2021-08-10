@@ -40,7 +40,7 @@ def make_regex() -> str :
     more = True
     regex = ""
     result = ""
-    print("Welcome to 'erxepy 0.0.5'")
+    print("Welcome to 'erxepy 0.0.6'")
     print("-------------------")
     print("Note: you can choose more than one expression.")
     print("Choose number from the following: ")
@@ -53,16 +53,13 @@ def make_regex() -> str :
             print("Option doesn't found!")
             more = True
             continue
-
         result += combine_regex(user_input,regex)
-        
         ask_more = input(r"Continue? (Y\N) ")
         if ask_more == "Y" or ask_more == "y":
             more = True
             print("#%"*20)
         elif ask_more == "N" or ask_more == "n":
             more = False
-
     regex = ""
     more = True
     return result # The regular expression you can use anywhere.
