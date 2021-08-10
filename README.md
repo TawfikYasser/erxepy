@@ -21,9 +21,7 @@ print(result.group()) # Match result => 0111 2497-156
 ```
 ### Output
 
-Example
 ![](https://github.com/TawfikYasser/erxepy/blob/main/etc/erxepygif.gif)
-
 
 ---
 
@@ -33,10 +31,10 @@ Example
 python3 -m pip install --user --upgrade erxepym
 ```
 
-> More will added soon! Stay tuned.
+> More will added soon! Stay tuned. [First stable release will coming soon!]
 
 ---
 
-[Visit at PyPi](https://pypi.org/project/erxepym/0.0.5)
+[Visit at PyPi](https://pypi.org/project/erxepym/0.0.6)
 
 [TawfikYasser](https://www.linkedin.com/in/tawfikyasser)
