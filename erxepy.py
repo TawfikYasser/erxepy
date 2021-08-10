@@ -39,7 +39,8 @@ def make_regex() -> str :
     """
     more = True
     regex = ""
-    print("Welcome to 'erxepy 0.0.4'")
+    result = ""
+    print("Welcome to 'erxepy 0.0.5'")
     print("-------------------")
     print("Note: you can choose more than one expression.")
     print("Choose number from the following: ")
@@ -53,7 +54,7 @@ def make_regex() -> str :
             more = True
             continue
 
-        result = combine_regex(user_input,regex)
+        result += combine_regex(user_input,regex)
         
         ask_more = input(r"Continue? (Y\N) ")
         if ask_more == "Y" or ask_more == "y":
@@ -106,6 +107,7 @@ def combine_regex(user_input,regex):
     #END OF FUNCTION
 
 def show_rxs():
+
     print("1) Any character except newline:")
     print("2) The character:")
     print("3) The string:")
