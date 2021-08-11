@@ -33,6 +33,12 @@ print(result.group()) # Match result => 0111 2497-156
 python3 -m pip install --user --upgrade erxepym
 ```
 
+### Contributing
+
+Hi, Welcome to erxepy, feel free to contribute to this project by (adding/fixing) features.
+
+Just you need to open an Issue and let's discuss it.
+
 ---
 
 > More will added soon! Stay tuned. [First stable release will coming soon!]
