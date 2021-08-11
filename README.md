@@ -3,6 +3,8 @@
 
 erxepy is a python module, used to make regular expressions more easier.
 
+_**Beta**_ at [PyPi](https://pypi.org/project/erxepym)
+
 ### How to install
 
 ```shell
@@ -21,7 +23,7 @@ print(result.group()) # Match result => 0111 2497-156
 ```
 ### Output
 
-![](https://github.com/TawfikYasser/erxepy/blob/main/etc/erxepygif.gif)
+![](https://github.com/TawfikYasser/erxepy/blob/main/etc/output-erxepy.gif)
 
 ---
 
@@ -31,10 +33,12 @@ print(result.group()) # Match result => 0111 2497-156
 python3 -m pip install --user --upgrade erxepym
 ```
 
+---
+
 > More will added soon! Stay tuned. [First stable release will coming soon!]
 
 ---
 
-[Visit at PyPi](https://pypi.org/project/erxepym/0.0.6)
+[Visit at PyPi](https://pypi.org/project/erxepym/0.0.7)
 
-[TawfikYasser](https://www.linkedin.com/in/tawfikyasser)
+[TawfikYasser - LinkedIn](https://www.linkedin.com/in/tawfikyasser)

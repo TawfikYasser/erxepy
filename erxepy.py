@@ -40,7 +40,7 @@ def make_regex() -> str :
     more = True
     regex = ""
     result = ""
-    print("Welcome to 'erxepy 0.0.6'")
+    print("Welcome to 'erxepy 0.0.7'")
     print("-------------------")
     print("Note: you can choose more than one expression.")
     print("Choose number from the following: ")
@@ -49,17 +49,12 @@ def make_regex() -> str :
     while more:
         show_rxs()
         user_input = input(">> ")
+        if user_input == "0":
+            return result
         if user_input not in regexs:
             print("Option doesn't found!")
-            more = True
             continue
         result += combine_regex(user_input,regex)
-        ask_more = input(r"Continue? (Y\N) ")
-        if ask_more == "Y" or ask_more == "y":
-            more = True
-            print("#%"*20)
-        elif ask_more == "N" or ask_more == "n":
-            more = False
     regex = ""
     more = True
     return result # The regular expression you can use anywhere.
@@ -104,6 +99,7 @@ def combine_regex(user_input,regex):
     #END OF FUNCTION
 
 def show_rxs():
+    print("+ [0] Exit ---------------------------------------------------------------------------+")
     print("+----------------------------------+-------------------+----------------+-------------+")
     print("| [1] Any character except newline | [2] The character | [3] The string | [4] a or b  |")
     print("+-------------------+---------------+---------------+------------+--------------------+")
@@ -117,4 +113,9 @@ def show_rxs():
     print("+-------------------------------------------------------------------------------------+")
     print("| [20] End of string                                                                  |")
     print("+-------------------------------------------------------------------------------------+")
-    #END OF FUNCTION
+    #END OF FUNCTION 
+
+
+if __name__ == "__main__":
+    # For testing only.
+    print(f"Your Regular Expression (For 0111 2497-156): {make_regex()}")
