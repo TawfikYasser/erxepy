@@ -1,12 +1,7 @@
 """
 This is 'erxepy' module,
-by using this module you can create your complex 'Regular Expression' in just few seconds,
-this module uses 're' module in it's underlying code.
-
+by using this module you can create your complex 'Regular Expression' in just few seconds.
 """
-
-# File import
-import re
 
 # Dictionary of regular expressions
 regexs = {
